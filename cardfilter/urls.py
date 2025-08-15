@@ -20,5 +20,5 @@ from cardss.views import visited
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('muk/',visited),
+    path('/',visited),
 ]
