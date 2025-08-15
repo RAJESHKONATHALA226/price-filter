@@ -1,0 +1,14 @@
+# --- Core ---
+Django>=4.2,<5.0        # Django framework
+gunicorn                # WSGI server for production
+whitenoise[brotli]      # Serve static files directly from Django
+dj-database-url         # Parse DATABASE_URL from Render
+psycopg2-binary         # PostgreSQL database driver
+
+# --- Optional but common ---
+django-cors-headers     # If your frontend is hosted elsewhere (e.g., Netlify)
+python-dotenv           # If you use a .env file locally
+
+# --- Your own dependencies ---
+# Any packages you installed via pip for your apps
+# e.g. djangorestframework, pillow, etc.
