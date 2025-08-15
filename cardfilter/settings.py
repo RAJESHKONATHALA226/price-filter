@@ -26,6 +26,9 @@ SECRET_KEY = 'django-insecure-xhmyu3dgl$-e9i(5+vcf6)1z0-1b!32&&ouisi$l&f#y)ufj27
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = [
+    "https://price-filter-4.onrender.com",
+]
 
 
 # Application definition
