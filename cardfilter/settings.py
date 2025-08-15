@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = [
-    "https://price-filter-4.onrender.com",
+    "https://price-filter-5.onrender.com",
 ]
 
 
